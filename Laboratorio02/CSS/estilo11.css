@@ -1,0 +1,15 @@
+body{
+    background-color: whitesmoke;
+}
+.borde1{
+    border-style: groove;
+    padding: 10px;
+}
+.borde2{
+    border-style: groove;
+    padding: 10px;
+}
+.borde3{
+    border-style: groove;
+    padding: 10px;
+}

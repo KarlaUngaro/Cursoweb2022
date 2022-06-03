@@ -1,0 +1,53 @@
+body{
+    background-color: green;
+}
+.contenedor{
+    background-color: white;
+}
+
+.separacion{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.visible{
+    background-color: darkgray;
+    width: 300px;
+    height: 100px;
+    border: 1px dotted firebrick;
+    overflow: visible;
+}
+
+.oculto{
+    background-color: darkgray;
+    width: 300px;
+    height: 100px;
+    border: 1px dotted firebrick;
+    overflow: hidden;
+}
+
+.barra{
+    background-color: darkgray;
+    width: 300px;
+    height: 100px;
+    border: 1px dotted firebrick;
+    overflow: scroll;
+}
+
+.automatico{
+    background-color: darkgray;
+    width: 300px;
+    height: 100px;
+    border: 1px dotted firebrick;
+    overflow: auto;
+}
+
+
+.doble{
+    background-color: darkgray;
+    width: 300px;
+    height: 100px;
+    border: 1px dotted firebrick;
+    overflow: hidden;
+    overflow: scroll;
+}

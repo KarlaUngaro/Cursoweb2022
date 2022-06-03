@@ -1,5 +1,10 @@
 body{
+    background-color: black;
+    font-style: oblique;
+}
+.contenedor{
     background-color: whitesmoke;
+    padding: 10px;
 }
 .borde1{
     border-style:inset;

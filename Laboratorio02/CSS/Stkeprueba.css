@@ -1,0 +1,16 @@
+.fija{
+    position: fixed;
+    background-color: skyblue;
+    top: 0;
+    left: 0px;
+    right: 0px;
+}
+.imagen{
+    width: 120px;
+    height: 120px;
+}
+.derecha{
+    text-align: right;
+    top: 200px;
+}
+    

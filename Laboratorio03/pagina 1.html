@@ -88,6 +88,72 @@
         alert("El promedio es: "+prom);
         document.write("El promedio es: "+prom+"<br>");
 
+        //Aplicación que permita calcular el sueldo. Ganancia 1000, bonificacion de 7%, descuento de 5%.
+
+        var sb;
+        var bon;
+        var des;
+        var sf;
+
+        sb=0;
+        bon=0;
+        des=0;
+        sf=0;
+
+        sb=1000;
+
+        bon=sb*0.07;
+        des=sb*0.05;
+        sf=sb+bon-des;
+
+        alert ("El sueldo básico es: " +sb);
+        alert ("La bonificacion es: " +bon);
+        alert ("El descuento es: " +des);
+        alert ("El sueldo final es: " +sf);
+
+        document.write ("El sueldo básico es: " +sb+"<br>");
+        document.write ("La bonificacion es: " +bon+"<br>");
+        document.write ("El descuento es: " +des+"<br>");
+        document.write ("El sueldo final es: " +sf+"<br>");
+
+        //Aplicacion que permita calcular el total a pagar por la compra de un producto. La cantidad a comprar es de 10 y el precio del producto es de 125.80 y ademas te debe calcular el IGV. Calcular el total. 
+        //Variables: 5 
+        //Variables: can, pre, sbt, igv, tot
+
+        var can;
+        var pre;
+        var sbt;
+        var igv;
+        var tot;
+
+        can=0;
+        pre=0;
+        sbt=0;
+        igv=0;
+        tot=0;
+
+        can=10;
+        pre=125.80
+
+        sbt=can*pre;
+        igv=sbt*0.18;
+        tot=sbt+igv;
+
+        alert("El subtotal es: "+sbt);
+        alert("El igv es: "+igv);
+        alert("El total es: "+tot);
+
+        document.write("El subtotal es: "+sbt+"<br>");
+        document.write("El igv es: "+igv+"<br>");
+        document.write("El total es: "+tot+"<br>");
+
+        
+
+        
+
+
+
+
 
     </script>
 </head>

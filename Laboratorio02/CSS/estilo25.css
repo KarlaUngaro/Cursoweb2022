@@ -18,7 +18,8 @@ body{
 .fija{
     position: fixed;
     top: 0;
-    left: 400px;
+    left: 0px;
+    right: 0px;
     border: 5px solid red;
 }
 
